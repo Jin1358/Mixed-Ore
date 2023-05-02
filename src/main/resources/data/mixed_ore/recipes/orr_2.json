@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "mixed_ore:mixed_ore_ingot"
+    },
+    "1": {
+      "item": "mixed_ore:mixed_ore_block"
+    },
+    "2": {
+      "item": "mixed_ore:mixed_ore_ingot"
+    },
+    "3": {
+      "item": "minecraft:stone"
+    },
+    "4": {
+      "item": "mixed_ore:mixed_ore_block"
+    },
+    "5": {
+      "item": "minecraft:stone"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "mixed_ore:mixed_ore_sword",
+    "count": 1
+  }
+}

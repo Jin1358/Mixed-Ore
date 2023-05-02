@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "mixed_ore:mixed_orea_chestplate",
+    "mixed_ore:mixed_orea_helmet",
+    "mixed_ore:mixed_orea_boots",
+    "mixed_ore:mixed_orea_leggings"
+  ]
+}

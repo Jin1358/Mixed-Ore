@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "mixed_ore:deepslate_mixed_ore",
+  "step": "underground_ores"
+}

@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "mixed_ore:mixed_ore_ingot"
+    },
+    "title": {
+      "translate": "advancements.dustmixed.title"
+    },
+    "description": {
+      "translate": "advancements.dustmixed.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dustmixed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mixed_ore:mixed_ore_ingot"
+            ],
+            "count": {
+              "min": 1,
+              "max": 999999999999999
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1,
+    "recipes": [
+      "mixed_ore:blockrecipes"
+    ]
+  },
+  "parent": "mixed_ore:dust_collector"
+}

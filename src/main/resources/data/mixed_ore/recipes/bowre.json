@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 12",
+    "345",
+    " 78"
+  ],
+  "key": {
+    "1": {
+      "tag": "minecraft:planks"
+    },
+    "2": {
+      "item": "mixed_ore:mixed_ore_block"
+    },
+    "3": {
+      "tag": "forge:stone"
+    },
+    "4": {
+      "item": "mixed_ore:mixed_ore_ingot"
+    },
+    "5": {
+      "item": "mixed_ore:mixed_ore_block"
+    },
+    "7": {
+      "tag": "minecraft:planks"
+    },
+    "8": {
+      "item": "mixed_ore:mixed_ore_block"
+    }
+  },
+  "result": {
+    "item": "mixed_ore:mixed_ore_bow",
+    "count": 1
+  }
+}

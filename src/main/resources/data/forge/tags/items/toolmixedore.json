@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "mixed_ore:mixed_ore_sword",
+    "mixed_ore:mixed_ore_axe",
+    "mixed_ore:mixed_ore_pick_axe",
+    "mixed_ore:mixedorehoe",
+    "mixed_ore:mixed_ore_bow",
+    "mixed_ore:mixed_ore_shovel"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "mixed_ore:mixed_ore",
+    "mixed_ore:deepslate_mixed_ore",
+    "mixed_ore:mixed_ore_block",
+    "mixed_ore:ore_crusher"
+  ]
+}

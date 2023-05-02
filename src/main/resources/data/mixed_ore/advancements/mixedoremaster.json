@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "mixed_ore:mixed_orea_chestplate"
+    },
+    "title": {
+      "translate": "advancements.mixedoremaster.title"
+    },
+    "description": {
+      "translate": "advancements.mixedoremaster.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mixedoremaster": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 3
+  },
+  "parent": "mixed_ore:mixed_oretools"
+}

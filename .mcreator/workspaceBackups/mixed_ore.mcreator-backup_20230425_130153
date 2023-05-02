@@ -1,0 +1,1578 @@
+{
+  "mod_elements": [
+    {
+      "name": "MixedOreIngot",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mixed_ore_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/jinonethreefiveeight/mixedore/item/MixedOreIngotItem.java",
+          "src/main/resources/assets/mixed_ore/models/item/mixed_ore_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "MixedOreT",
+      "type": "tab",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mixed_ore_t",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "MixedOre",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mixed_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/jinonethreefiveeight/mixedore/block/MixedOreBlock.java",
+          "src/main/resources/assets/mixed_ore/models/item/mixed_ore.json",
+          "src/main/resources/data/mixed_ore/worldgen/configured_feature/mixed_ore.json",
+          "src/main/resources/assets/mixed_ore/blockstates/mixed_ore.json",
+          "src/main/resources/assets/mixed_ore/models/block/mixed_ore.json",
+          "src/main/java/net/jinonethreefiveeight/mixedore/world/features/ores/MixedOreFeature.java",
+          "src/main/resources/data/mixed_ore/worldgen/placed_feature/mixed_ore.json",
+          "src/main/resources/data/mixed_ore/forge/biome_modifier/mixed_ore_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateMixedOre",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_mixed_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mixed_ore/worldgen/configured_feature/deepslate_mixed_ore.json",
+          "src/main/resources/assets/mixed_ore/models/block/deepslate_mixed_ore.json",
+          "src/main/java/net/jinonethreefiveeight/mixedore/block/DeepslateMixedOreBlock.java",
+          "src/main/java/net/jinonethreefiveeight/mixedore/world/features/ores/DeepslateMixedOreFeature.java",
+          "src/main/resources/data/mixed_ore/worldgen/placed_feature/deepslate_mixed_ore.json",
+          "src/main/resources/assets/mixed_ore/blockstates/deepslate_mixed_ore.json",
+          "src/main/resources/data/mixed_ore/forge/biome_modifier/deepslate_mixed_ore_biome_modifier.json",
+          "src/main/resources/assets/mixed_ore/models/item/deepslate_mixed_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "Orerecipes1",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orerecipes_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mixed_ore/recipes/orerecipes_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Or2",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "or_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mixed_ore/recipes/or_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Or3",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "or_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mixed_ore/recipes/or_3.json"
+        ]
+      }
+    },
+    {
+      "name": "Or4",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "or_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mixed_ore/recipes/or_4.json"
+        ]
+      }
+    },
+    {
+      "name": "Or5",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "or_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mixed_ore/recipes/or_5.json"
+        ]
+      }
+    },
+    {
+      "name": "Or6",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "or_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mixed_ore/recipes/or_6.json"
+        ]
+      }
+    },
+    {
+      "name": "Or7",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "or_7",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mixed_ore/recipes/or_7.json"
+        ]
+      }
+    },
+    {
+      "name": "Or8",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "or_8",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mixed_ore/recipes/or_8.json"
+        ]
+      }
+    },
+    {
+      "name": "Orerecipes2",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orerecipes_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mixed_ore/recipes/orerecipes_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Orerecipes3",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orerecipes_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mixed_ore/recipes/orerecipes_3.json"
+        ]
+      }
+    },
+    {
+      "name": "MixedOreBlock",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mixed_ore_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mixed_ore/blockstates/mixed_ore_block.json",
+          "src/main/resources/assets/mixed_ore/models/item/mixed_ore_block.json",
+          "src/main/resources/assets/mixed_ore/models/block/mixed_ore_block.json",
+          "src/main/java/net/jinonethreefiveeight/mixedore/block/MixedOreBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Blockrecipes",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockrecipes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mixed_ore/recipes/blockrecipes.json"
+        ]
+      }
+    },
+    {
+      "name": "Xg",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/jinonethreefiveeight/mixedore/procedures/XgProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MixedOreSword",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mixed_ore_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/jinonethreefiveeight/mixedore/item/MixedOreSwordItem.java",
+          "src/main/resources/assets/mixed_ore/models/item/mixed_ore_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "MixedOrePickAxe",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mixed_ore_pick_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mixed_ore/models/item/mixed_ore_pick_axe.json",
+          "src/main/java/net/jinonethreefiveeight/mixedore/item/MixedOrePickAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MixedOreAxe",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mixed_ore_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mixed_ore/models/item/mixed_ore_axe.json",
+          "src/main/java/net/jinonethreefiveeight/mixedore/item/MixedOreAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MixedOreShovel",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mixed_ore_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/jinonethreefiveeight/mixedore/item/MixedOreShovelItem.java",
+          "src/main/resources/assets/mixed_ore/models/item/mixed_ore_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "Mixedorehoe",
+      "type": "tool",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mixedorehoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mixed_ore/models/item/mixedorehoe.json",
+          "src/main/java/net/jinonethreefiveeight/mixedore/item/MixedorehoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Xg2",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xg_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/jinonethreefiveeight/mixedore/procedures/Xg2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MixedOreBow",
+      "type": "rangeditem",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mixed_ore_bow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mixed_ore/models/item/mixed_ore_bow.json",
+          "src/main/java/net/jinonethreefiveeight/mixedore/entity/MixedOreBowEntity.java",
+          "src/main/java/net/jinonethreefiveeight/mixedore/item/MixedOreBowItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Xg3",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xg_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/jinonethreefiveeight/mixedore/procedures/Xg3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MixedOrea",
+      "type": "armor",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mixed_orea",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/mixed_ore/models/item/mixed_orea_helmet.json",
+          "src/main/resources/assets/mixed_ore/models/item/mixed_orea_boots.json",
+          "src/main/java/net/jinonethreefiveeight/mixedore/item/MixedOreaItem.java",
+          "src/main/resources/assets/mixed_ore/models/item/mixed_orea_chestplate.json",
+          "src/main/resources/assets/mixed_ore/models/item/mixed_orea_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "Xg4",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xg_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/jinonethreefiveeight/mixedore/procedures/Xg4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Xg5",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xg_5",
+      "metadata": {
+        "files": [
+          "src/main/java/net/jinonethreefiveeight/mixedore/procedures/Xg5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Orr1",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orr_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mixed_ore/recipes/orr_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Orr2",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orr_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mixed_ore/recipes/orr_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Orr3",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orr_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mixed_ore/recipes/orr_3.json"
+        ]
+      }
+    },
+    {
+      "name": "Orr4",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orr_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mixed_ore/recipes/orr_4.json"
+        ]
+      }
+    },
+    {
+      "name": "Orr5",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orr_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mixed_ore/recipes/orr_5.json"
+        ]
+      }
+    },
+    {
+      "name": "Orr6",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orr_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mixed_ore/recipes/orr_6.json"
+        ]
+      }
+    },
+    {
+      "name": "Orr7",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orr_7",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mixed_ore/recipes/orr_7.json"
+        ]
+      }
+    },
+    {
+      "name": "Orr8",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orr_8",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mixed_ore/recipes/orr_8.json"
+        ]
+      }
+    },
+    {
+      "name": "Orr9",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orr_9",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mixed_ore/recipes/orr_9.json"
+        ]
+      }
+    },
+    {
+      "name": "Xiaog",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xiaog",
+      "metadata": {
+        "files": [
+          "src/main/java/net/jinonethreefiveeight/mixedore/procedures/XiaogProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Xiaog2",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xiaog_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/jinonethreefiveeight/mixedore/procedures/Xiaog2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Xiaog3",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xiaog_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/jinonethreefiveeight/mixedore/procedures/Xiaog3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bowre",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bowre",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mixed_ore/recipes/bowre.json"
+        ]
+      }
+    },
+    {
+      "name": "BeaconBaseBlockBlocks",
+      "type": "tag",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beacon_base_block_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/beacon_base_blocks.json"
+        ]
+      }
+    },
+    {
+      "name": "DragonImmuneBlocks",
+      "type": "tag",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_immune_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/dragon_immune.json"
+        ]
+      }
+    },
+    {
+      "name": "WitherImmuneBlocks",
+      "type": "tag",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_immune_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/wither_immune.json"
+        ]
+      }
+    },
+    {
+      "name": "OreCrusher",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ore_crusher",
+      "metadata": {
+        "files": [
+          "src/main/java/net/jinonethreefiveeight/mixedore/block/entity/OreCrusherBlockEntity.java",
+          "src/main/resources/assets/mixed_ore/blockstates/ore_crusher.json",
+          "src/main/resources/assets/mixed_ore/models/item/ore_crusher.json",
+          "src/main/java/net/jinonethreefiveeight/mixedore/block/OreCrusherBlock.java",
+          "src/main/resources/assets/mixed_ore/models/block/ore_crusher.json"
+        ]
+      }
+    },
+    {
+      "name": "Orec",
+      "type": "gui",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orec",
+      "metadata": {
+        "files": [
+          "src/main/java/net/jinonethreefiveeight/mixedore/client/gui/OrecScreen.java",
+          "src/main/java/net/jinonethreefiveeight/mixedore/world/inventory/OrecMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "CoalDust",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/jinonethreefiveeight/mixedore/item/CoalDustItem.java",
+          "src/main/resources/assets/mixed_ore/models/item/coal_dust.json"
+        ]
+      }
+    },
+    {
+      "name": "Guino",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guino",
+      "metadata": {
+        "files": [
+          "src/main/java/net/jinonethreefiveeight/mixedore/procedures/GuinoProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CopperDust",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/jinonethreefiveeight/mixedore/item/CopperDustItem.java",
+          "src/main/resources/assets/mixed_ore/models/item/copper_dust.json"
+        ]
+      }
+    },
+    {
+      "name": "IronDust",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mixed_ore/models/item/iron_dust.json",
+          "src/main/java/net/jinonethreefiveeight/mixedore/item/IronDustItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GoldDust",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mixed_ore/models/item/gold_dust.json",
+          "src/main/java/net/jinonethreefiveeight/mixedore/item/GoldDustItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DiamondDust",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/jinonethreefiveeight/mixedore/item/DiamondDustItem.java",
+          "src/main/resources/assets/mixed_ore/models/item/diamond_dust.json"
+        ]
+      }
+    },
+    {
+      "name": "LapisDust",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mixed_ore/models/item/lapis_dust.json",
+          "src/main/java/net/jinonethreefiveeight/mixedore/item/LapisDustItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RedStoneDust",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_stone_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/jinonethreefiveeight/mixedore/item/RedStoneDustItem.java",
+          "src/main/resources/assets/mixed_ore/models/item/red_stone_dust.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldDust",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/jinonethreefiveeight/mixedore/item/EmeraldDustItem.java",
+          "src/main/resources/assets/mixed_ore/models/item/emerald_dust.json"
+        ]
+      }
+    },
+    {
+      "name": "MixedOreitem",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mixed_oreitem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/jinonethreefiveeight/mixedore/procedures/MixedOreitemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Orecru",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orecru",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mixed_ore/recipes/orecru.json"
+        ]
+      }
+    },
+    {
+      "name": "Cruingot",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cruingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mixed_ore/recipes/cruingot.json"
+        ]
+      }
+    },
+    {
+      "name": "Toolmixedore",
+      "type": "tag",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toolmixedore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/toolmixedore.json"
+        ]
+      }
+    },
+    {
+      "name": "Toolingot",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toolingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mixed_ore/recipes/toolingot.json"
+        ]
+      }
+    },
+    {
+      "name": "Armormixedore",
+      "type": "tag",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armormixedore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/armormixedore.json"
+        ]
+      }
+    },
+    {
+      "name": "Armoringot",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armoringot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mixed_ore/recipes/armoringot.json"
+        ]
+      }
+    },
+    {
+      "name": "Oreworld",
+      "type": "dimension",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oreworld",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mixed_ore/blockstates/oreworld_portal.json",
+          "src/main/resources/assets/mixed_ore/models/block/oreworld_portal_ew.json",
+          "src/main/java/net/jinonethreefiveeight/mixedore/world/teleporter/OreworldTeleporter.java",
+          "src/main/resources/data/mixed_ore/dimension/oreworld.json",
+          "src/main/resources/assets/mixed_ore/models/block/oreworld_portal_ns.json",
+          "src/main/java/net/jinonethreefiveeight/mixedore/world/dimension/OreworldDimension.java",
+          "src/main/resources/data/mixed_ore/dimension_type/oreworld.json",
+          "src/main/java/net/jinonethreefiveeight/mixedore/block/OreworldPortalBlock.java",
+          "src/main/java/net/jinonethreefiveeight/mixedore/item/OreworldItem.java",
+          "src/main/java/net/jinonethreefiveeight/mixedore/world/teleporter/OreworldPortalShape.java",
+          "src/main/resources/assets/mixed_ore/models/item/oreworld.json"
+        ]
+      }
+    },
+    {
+      "name": "Deepstale",
+      "type": "biome",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepstale",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mixed_ore/worldgen/placed_feature/deepstale_tree.json",
+          "src/main/resources/data/mixed_ore/worldgen/biome/deepstale.json",
+          "src/main/resources/data/mixed_ore/worldgen/configured_feature/deepstale_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "Play",
+      "type": "procedure",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "play",
+      "metadata": {
+        "files": [
+          "src/main/java/net/jinonethreefiveeight/mixedore/procedures/PlayProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MixedOrejiaoyi",
+      "type": "villagertrade",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mixed_orejiaoyi",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Netherstone",
+      "type": "biome",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mixed_ore/worldgen/configured_feature/netherstone_tree.json",
+          "src/main/resources/data/mixed_ore/worldgen/placed_feature/netherstone_tree.json",
+          "src/main/resources/data/mixed_ore/worldgen/biome/netherstone.json"
+        ]
+      }
+    },
+    {
+      "name": "Xianshi",
+      "type": "procedure",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xianshi",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/jinonethreefiveeight/mixedore/procedures/XianshiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Xians1",
+      "type": "procedure",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xians_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/jinonethreefiveeight/mixedore/procedures/Xians1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Xians2",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xians_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/jinonethreefiveeight/mixedore/procedures/Xians2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Xians3",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xians_3",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/jinonethreefiveeight/mixedore/procedures/Xians3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Xians4",
+      "type": "procedure",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xians_4",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/jinonethreefiveeight/mixedore/procedures/Xians4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Xians5",
+      "type": "procedure",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xians_5",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/jinonethreefiveeight/mixedore/procedures/Xians5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Xians6",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xians_6",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/jinonethreefiveeight/mixedore/procedures/Xians6Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Xians",
+      "type": "procedure",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xians",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/jinonethreefiveeight/mixedore/procedures/XiansProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Oref",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oref",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mixed_ore/recipes/oref.json"
+        ]
+      }
+    },
+    {
+      "name": "MixedOrep",
+      "type": "painting",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mixed_orep",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "NetheriteDust",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mixed_ore/models/item/netherite_dust.json",
+          "src/main/java/net/jinonethreefiveeight/mixedore/item/NetheriteDustItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MixedOrehello",
+      "type": "achievement",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mixed_orehello",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mixed_ore/advancements/mixed_orehello.json"
+        ]
+      }
+    },
+    {
+      "name": "DustCollector",
+      "type": "achievement",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dust_collector",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mixed_ore/advancements/dust_collector.json"
+        ]
+      }
+    },
+    {
+      "name": "Add1",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "add_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/jinonethreefiveeight/mixedore/procedures/Add1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dustmixed",
+      "type": "achievement",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustmixed",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mixed_ore/advancements/dustmixed.json"
+        ]
+      }
+    },
+    {
+      "name": "MixedOretools",
+      "type": "achievement",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mixed_oretools",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mixed_ore/advancements/mixed_oretools.json"
+        ]
+      }
+    },
+    {
+      "name": "Mixedoremaster",
+      "type": "achievement",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mixedoremaster",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mixed_ore/advancements/mixedoremaster.json"
+        ]
+      }
+    },
+    {
+      "name": "Meatdust",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meatdust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/jinonethreefiveeight/mixedore/item/MeatdustItem.java",
+          "src/main/resources/assets/mixed_ore/models/item/meatdust.json"
+        ]
+      }
+    },
+    {
+      "name": "MixedOreMeatIngot",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mixed_ore_meat_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/jinonethreefiveeight/mixedore/item/MixedOreMeatIngotItem.java",
+          "src/main/resources/assets/mixed_ore/models/item/mixed_ore_meat_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "Meatrecipes",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meatrecipes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mixed_ore/recipes/meatrecipes.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "advancements.mixed_orehello.title": "Mixed Ore",
+      "item.mixed_ore.mixed_ore_pick_axe": "Mixed Ore Pickaxe",
+      "block.mixed_ore.ore_crusher": "Ore Crusher",
+      "item.mixed_ore.mixed_ore_axe": "Mixed Ore Axe",
+      "advancements.dustmixed.title": "Dust Mixed!",
+      "item.mixed_ore.netherite_dust": "Netherite Dust",
+      "item.mixed_ore.oreworld": "Mixed Ore Flint And Steel",
+      "advancements.mixedoremaster.title": "Mixed ore master",
+      "item.mixed_ore.red_stone_dust": "RedStone Dust",
+      "block.mixed_ore.mixed_ore": "Mixed Ore",
+      "death.attack.clear": "%s was cleared",
+      "item.mixed_ore.mixed_orea_helmet": "Mixed Ore Helmet",
+      "itemGroup.mixed_ore.mixed_ore_t": "Mixed Ore",
+      "item.mixed_ore.copper_dust": "Copper Dust",
+      "item.mixed_ore.iron_dust": "Iron Dust",
+      "block.mixed_ore.mixed_ore_block": "Mixed Ore Block",
+      "item.mixed_ore.mixed_orea_chestplate": "Mixed Ore Chestplate",
+      "item.mixed_ore.mixedorehoe": "Mixed Ore Hoe",
+      "biome.mixed_ore.netherstone": "Nether",
+      "item_group.mixed_ore.mixed_ore_t": "Mixed Ore",
+      "item.mixed_ore.gold_dust": "Gold Dust",
+      "item.mixed_ore.mixed_ore_sword": "Mixed Ore Sword",
+      "item.mixed_ore.mixed_orea_boots": "Mixed Ore Boots",
+      "item.mixed_ore.diamond_dust": "Diamond Dust",
+      "item.mixed_ore.coal_dust": "Coal Dust",
+      "painting.mixed_ore.mixed_orep.title": "Mixed Orep",
+      "advancements.mixedoremaster.descr": "Get a full set of mixed ore.",
+      "painting.mixed_ore.mixed_orep.author": "Unknown",
+      "block.mixed_ore.deepslate_mixed_ore": "Deepslate Mixed Ore",
+      "gui.mixed_ore.orec.label_ore_crusher": "Ore Crusher",
+      "itemGroup.tabmixed_ore_t": "Mixed Ore",
+      "item.mixed_ore.mixed_ore_meat_ingot": "Mixed Ore Meat Ingot",
+      "advancements.dust_collector.title": "Dust Collector",
+      "advancements.mixed_oretools.title": "Strong tools and armor!",
+      "item.mixed_ore.meatdust": "Meat Dust",
+      "item.mixed_ore.mixed_ore_shovel": "Mixed Ore Shovel",
+      "biome.mixed_ore.deepstale": "Deepstale",
+      "item.mixed_ore.emerald_dust": "Emerald Dust",
+      "advancements.mixed_orehello.descr": "Welcome to the Mixed Ore Mod.",
+      "item.mixed_ore.lapis_dust": "Lapis Dust",
+      "advancements.dustmixed.descr": "Get Mixed Ore ingot.",
+      "advancements.mixed_oretools.descr": "Obtain a tool or armor that mixes minerals.",
+      "item.mixed_ore.mixed_ore_ingot": "Mixed Ore Ingot",
+      "advancements.dust_collector.descr": "Collect all types of Dust.",
+      "item.mixed_ore.mixed_orea_leggings": "Mixed Ore Legging",
+      "item.mixed_ore.mixed_ore_bow": "Mixed Ore Bow"
+    },
+    "zh_cn": {
+      "advancements.mixed_orehello.title": "混合矿石",
+      "item.mixed_ore.mixed_ore_pick_axe": "混合矿石稿",
+      "block.mixed_ore.ore_crusher": "矿石粉碎机",
+      "item.mixed_ore.mixed_ore_axe": "混合矿石斧",
+      "advancements.dustmixed.title": "粉末混合！",
+      "item.mixed_ore.netherite_dust": "下界合金粉末",
+      "item.mixed_ore.oreworld": "混合矿石打火石",
+      "advancements.mixedoremaster.title": "混合矿石大师",
+      "item.mixed_ore.red_stone_dust": "红石粉末",
+      "block.mixed_ore.mixed_ore": "混合矿石矿石",
+      "death.attack.clear": "%s 被清除了",
+      "item.mixed_ore.mixed_orea_helmet": "混合矿石头盔",
+      "itemGroup.mixed_ore.mixed_ore_t": "混合矿石",
+      "item.mixed_ore.copper_dust": "铜粉末",
+      "item.mixed_ore.iron_dust": "铁粉末",
+      "block.mixed_ore.mixed_ore_block": "混合矿石方块",
+      "item.mixed_ore.mixed_orea_chestplate": "混合矿石胸甲",
+      "item.mixed_ore.mixedorehoe": "混合矿石锄",
+      "biome.mixed_ore.netherstone": "下界",
+      "item_group.mixed_ore.mixed_ore_t": "Mixed Ore",
+      "item.mixed_ore.gold_dust": "金粉末",
+      "item.mixed_ore.mixed_ore_sword": "混合矿石剑",
+      "item.mixed_ore.mixed_orea_boots": "混合矿石靴子",
+      "item.mixed_ore.diamond_dust": "钻石粉末",
+      "item.mixed_ore.coal_dust": "煤粉末",
+      "painting.mixed_ore.mixed_orep.title": "Mixed Orep",
+      "advancements.mixedoremaster.descr": "获得全套混合矿石。",
+      "painting.mixed_ore.mixed_orep.author": "Unknown",
+      "block.mixed_ore.deepslate_mixed_ore": "深板岩混合矿石",
+      "gui.mixed_ore.orec.label_ore_crusher": "矿石粉碎机",
+      "itemGroup.tabmixed_ore_t": "混合矿石",
+      "item.mixed_ore.mixed_ore_meat_ingot": "混合矿物肉锭",
+      "advancements.dust_collector.title": "粉末收集家",
+      "advancements.mixed_oretools.title": "强大的工具和盔甲！",
+      "item.mixed_ore.meatdust": "肉粉末",
+      "item.mixed_ore.mixed_ore_shovel": "混合矿石铲",
+      "biome.mixed_ore.deepstale": "深板岩",
+      "item.mixed_ore.emerald_dust": "绿宝石粉末",
+      "advancements.mixed_orehello.descr": "欢迎游玩混合矿石mod",
+      "item.mixed_ore.lapis_dust": "青金石粉末",
+      "advancements.dustmixed.descr": "获得混合矿石锭。",
+      "advancements.mixed_oretools.descr": "获得一个混合矿物的工具或盔甲。",
+      "item.mixed_ore.mixed_ore_ingot": "混合矿石锭",
+      "advancements.dust_collector.descr": "收集所有粉末。",
+      "item.mixed_ore.mixed_orea_leggings": "混合矿石护腿",
+      "item.mixed_ore.mixed_ore_bow": "混合矿石弓"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "mixed_ore",
+    "modName": "Mixed_Ore",
+    "version": "1.0.44",
+    "description": "This mod adds mixed ores and corresponding tools",
+    "author": "Jin1358, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "MIT License",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "updateURL": "https://www.curseforge.com/minecraft/mc-mods/mixedore/files",
+    "modPicture": "mixed_ore_picture",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.4",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.jinonethreefiveeight.mixedore",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300217118
+}

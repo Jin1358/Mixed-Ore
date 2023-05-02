@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "mixed_ore",
+  "version": "1.0.0",
+  "name": "Mixed_Ore",
+  "description": "This mod adds mixed ores and corresponding tools",
+  "authors": [
+    "jin1358, MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "MIT License",
+  "icon": "assets/mixed_ore/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.jinonethreefiveeight.mixedore.MixedOreMod"
+    ],
+    "client": [
+      "net.jinonethreefiveeight.mixedore.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "mixins": [
+    "mixed_ore.mixins.json"
+  ]
+}

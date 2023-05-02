@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "mixed_ore:diamond_dust"
+    },
+    "title": {
+      "translate": "advancements.dust_collector.title"
+    },
+    "description": {
+      "translate": "advancements.dust_collector.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dust_collector": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1,
+    "recipes": [
+      "mixed_ore:cruingot"
+    ]
+  },
+  "parent": "mixed_ore:mixed_orehello"
+}

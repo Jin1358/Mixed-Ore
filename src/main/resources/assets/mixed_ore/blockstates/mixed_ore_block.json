@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mixed_ore:block/mixed_ore_block"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "mixed_ore:mixed_ore_block"
+    },
+    "1": {
+      "item": "mixed_ore:mixed_ore_ingot"
+    },
+    "2": {
+      "item": "mixed_ore:mixed_ore_block"
+    },
+    "3": {
+      "item": "mixed_ore:mixed_ore_block"
+    },
+    "4": {
+      "item": "minecraft:stone"
+    },
+    "5": {
+      "item": "mixed_ore:mixed_ore_block"
+    }
+  },
+  "result": {
+    "item": "mixed_ore:mixed_orea_boots",
+    "count": 1
+  }
+}

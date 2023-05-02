@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "mixed_ore:mixed_ore_pick_axe"
+    },
+    "title": {
+      "translate": "advancements.mixed_oretools.title"
+    },
+    "description": {
+      "translate": "advancements.mixed_oretools.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mixed_oretools": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 2
+  },
+  "parent": "mixed_ore:dustmixed"
+}

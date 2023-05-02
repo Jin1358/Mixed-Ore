@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mixed_ore:coal_dust"
+    },
+    "1": {
+      "item": "mixed_ore:emerald_dust"
+    },
+    "2": {
+      "item": "mixed_ore:red_stone_dust"
+    },
+    "3": {
+      "item": "mixed_ore:copper_dust"
+    },
+    "4": {
+      "item": "mixed_ore:netherite_dust"
+    },
+    "5": {
+      "item": "mixed_ore:lapis_dust"
+    },
+    "6": {
+      "item": "mixed_ore:iron_dust"
+    },
+    "7": {
+      "item": "mixed_ore:gold_dust"
+    },
+    "8": {
+      "item": "mixed_ore:diamond_dust"
+    }
+  },
+  "result": {
+    "item": "mixed_ore:mixed_ore_ingot",
+    "count": 1
+  }
+}

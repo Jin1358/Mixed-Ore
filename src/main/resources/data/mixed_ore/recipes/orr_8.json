@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "mixed_ore:mixed_ore_block"
+    },
+    "1": {
+      "item": "mixed_ore:mixed_ore_block"
+    },
+    "2": {
+      "item": "mixed_ore:mixed_ore_block"
+    },
+    "3": {
+      "item": "mixed_ore:mixed_ore_block"
+    },
+    "4": {
+      "item": "mixed_ore:mixed_ore_ingot"
+    },
+    "5": {
+      "item": "mixed_ore:mixed_ore_block"
+    },
+    "6": {
+      "item": "mixed_ore:mixed_ore_block"
+    },
+    "8": {
+      "item": "mixed_ore:mixed_ore_block"
+    }
+  },
+  "result": {
+    "item": "mixed_ore:mixed_orea_leggings",
+    "count": 1
+  }
+}

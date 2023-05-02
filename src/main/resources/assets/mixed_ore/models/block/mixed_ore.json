@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mixed_ore:block/mixed_ore",
+    "up": "mixed_ore:block/mixed_ore",
+    "north": "mixed_ore:block/mixed_ore",
+    "east": "mixed_ore:block/mixed_ore",
+    "south": "mixed_ore:block/mixed_ore",
+    "west": "mixed_ore:block/mixed_ore",
+    "particle": "mixed_ore:block/mixed_ore"
+  },
+  "render_type": "solid"
+}

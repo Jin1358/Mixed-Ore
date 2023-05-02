@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mixed_ore:meatdust"
+    },
+    "1": {
+      "item": "mixed_ore:meatdust"
+    },
+    "2": {
+      "item": "mixed_ore:meatdust"
+    },
+    "3": {
+      "item": "mixed_ore:meatdust"
+    },
+    "4": {
+      "item": "mixed_ore:mixed_ore_ingot"
+    },
+    "5": {
+      "item": "mixed_ore:meatdust"
+    },
+    "6": {
+      "item": "mixed_ore:meatdust"
+    },
+    "7": {
+      "item": "mixed_ore:meatdust"
+    },
+    "8": {
+      "item": "mixed_ore:meatdust"
+    }
+  },
+  "result": {
+    "item": "mixed_ore:mixed_ore_meat_ingot",
+    "count": 1
+  }
+}
